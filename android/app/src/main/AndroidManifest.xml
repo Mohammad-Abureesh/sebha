@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mzmz.MohammadAbureesh.counter">
+    package="com.mzmz.MohammadAbureesh.sebha">
    <application
         android:label="sebha"
         android:name="${applicationName}"
