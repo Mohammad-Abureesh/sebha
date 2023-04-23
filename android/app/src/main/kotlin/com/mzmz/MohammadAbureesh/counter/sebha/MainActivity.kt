@@ -1,4 +1,4 @@
-package com.mzmz.MohammadAbureesh.counter.sebha
+package com.mzmz.MohammadAbureesh.counter
 
 import io.flutter.embedding.android.FlutterActivity
 

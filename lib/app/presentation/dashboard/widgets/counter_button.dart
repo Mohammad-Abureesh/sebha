@@ -13,7 +13,7 @@ class CounterButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const double size = 300.0;
+    final size = MediaQuery.of(context).size;
 
     String file = icon ??
         LocalStorageManager.readString(LocalStorageKeys.countButtonStyle,
@@ -28,7 +28,8 @@ class CounterButton extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset('assets/images/$file.png', height: size, width: size),
+              Image.asset('assets/images/$file.png',
+                  height: 300.0, width: size.width - 50.0),
             ],
           )),
     );
