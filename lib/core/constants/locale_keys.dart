@@ -17,5 +17,5 @@ class LocaleKeys {
   static const theme = 'theme';
   static const darkMode = 'darkMode';
   static const lightMode = 'lightMode';
-  static const themeMode = 'themeMode';
+  static const privacyPolicy = 'privacyPolicy';
 }

@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sebha/core/application_managers/local_storage_manager.dart';
+import 'package:sebha/core/constants/local_storage_keys.dart';
 import 'package:sebha/core/constants/locale_keys.dart';
 import 'package:sebha/core/uiStyle/theme/dark_theme.dart';
 import 'package:sebha/core/uiStyle/theme/light_theme.dart';
 
 class ThemeController extends GetxController {
-  final _key = LocaleKeys.themeMode;
+  final _key = LocalStorageKeys.themeMode;
 
   RxBool isDarkMode = false.obs;
 

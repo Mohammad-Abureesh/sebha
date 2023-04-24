@@ -19,4 +19,5 @@ Map<String, String> ar = {
   LocaleKeys.theme: 'المظهر',
   LocaleKeys.darkMode: 'المظهر الداكن',
   LocaleKeys.lightMode: 'المظهر الفاتح',
+  LocaleKeys.privacyPolicy: 'سياسة الخصوصية',
 };

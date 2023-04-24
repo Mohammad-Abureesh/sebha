@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sebha/app/presentation/settings/screens/language_screen.dart';
+import 'package:sebha/app/presentation/settings/screens/privacy_policy_screen.dart';
 import 'package:sebha/app/presentation/settings/screens/theme_screen.dart';
 import 'package:sebha/app/widgets/build_text.dart';
 import 'package:sebha/core/application_managers/navigation_manager.dart';
@@ -17,6 +18,10 @@ class SettingsScreenBody extends StatelessWidget {
     LocaleKeys.language: {
       _page: const LanguageScreen(),
       _icon: Icons.language,
+    },
+    LocaleKeys.privacyPolicy: {
+      _page: const PrivacyPolicyScreen(),
+      _icon: Icons.privacy_tip,
     },
   };
 

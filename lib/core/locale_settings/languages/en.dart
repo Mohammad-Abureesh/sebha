@@ -19,4 +19,5 @@ Map<String, String> en = {
   LocaleKeys.theme: 'Theme',
   LocaleKeys.darkMode: 'Dark Mode',
   LocaleKeys.lightMode: 'Light Mode',
+  LocaleKeys.privacyPolicy: 'Privacy policy',
 };

@@ -3,4 +3,5 @@ class LocalStorageKeys {
   static const String lastCounter = 'lastCounter';
   static const String appLocale = 'appLocale';
   static const String systemLang = 'systemLang';
+  static const themeMode = 'themeMode';
 }
